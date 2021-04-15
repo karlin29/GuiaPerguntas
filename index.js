@@ -12,7 +12,6 @@ try {
         console.error('Erro ao conectar banco de dados', error);
 }
 
-//const bodyParser = require("body-parser");
 
 //Estou dizando para o express usar o EJS como view engine
 app.set('view engine', 'ejs');
